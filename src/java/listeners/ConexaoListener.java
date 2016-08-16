@@ -8,7 +8,7 @@ public class ConexaoListener implements ServletContextListener {
 
     @Override
     public void contextInitialized(ServletContextEvent sce) {
-        Conexao.setUrl("jdbc:sqlite:__DIRETORIO__/data/escola.sqlite.db");
+        Conexao.setUrl("jdbc:sqlite:__DIRETORIO__/data/blog.sqlite.db");
     }
 
     @Override
